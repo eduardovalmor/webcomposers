@@ -1,0 +1,53 @@
+
+*{
+    font-family: arial;
+  }
+  
+  h3{
+    font-size: 125%;  
+  }
+  
+  
+  div[class=as]{
+    height: 250px;
+    width: 98%;
+    margin-top: 3%;
+    border-radius: 25px;
+  }
+  
+  div[class=ar]{
+   font-size: 80%;
+  }
+  
+  
+  
+  .module-border-wrap{
+    border: 5px solid;
+    border-image: linear-gradient(45deg, black, gray) 1;
+  }
+  
+  .module-border-wrap-pseudo{
+    position: relative;
+    padding: 10px 20px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  /* img's config */
+  
+  img{
+    border-radius: 100%;
+    padding: 5%;
+  }
+  
+  div[class=composersimages]{
+    padding: 10%;
+  }
+  
+  
+  /* img's config */
+  
+  
+  

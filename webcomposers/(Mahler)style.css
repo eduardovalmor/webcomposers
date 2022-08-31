@@ -1,0 +1,19 @@
+
+*{
+    font-family: arial;
+ }
+
+
+ img[class=Mahler]{
+    padding: 2%;
+    border-radius: 100%;
+ }
+
+ h1{
+    font-size: 300%;
+ }
+
+ p[class="Mahler"]{
+    margin-left: 30%;
+    margin-top: -20%;
+ }
