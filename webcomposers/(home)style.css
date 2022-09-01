@@ -50,4 +50,37 @@
   /* img's config */
   
   
+/* buttons */
+
+  .btn{
+    padding: 25px 20px 4px 20px;
+    font-size: 110%;                  
+    font-weight: 700px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+
+
+  /* buttons */
+
+
   
