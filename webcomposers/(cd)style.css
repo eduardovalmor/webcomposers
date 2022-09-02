@@ -1,4 +1,3 @@
-
 *{
     font-family: arial;
  }
@@ -23,32 +22,107 @@
  }
 
 
- img[class=Mahler]{
-  padding: 15px;
-  margin-top: 35px;
-  border-radius: 100%;
- }
- 
-
 /* Mahler */
+
+img[class=Mahler]{
+   
+    margin-top: -8%;
+    margin-left: 1%;
+    border-radius: 100%;
+   }
+
+div[class=Mahler]{
+    display: block;
+   }
 
 p[class=Mahler]{
     margin-left: 13%;
-    margin-top: 30px;
+    margin-top: 2%;
     font-size: 32px;
 }
 
-img[class=Mahler]{
-    margin-top: -8%;
-}
 
 p[class=Mahlerinfo]{
     margin-left: 13%;
-    font-size: 13px;
+    font-size: 90%;
     margin-top: -2%;
-  
+}
+
+/* iPad */
+
+@media screen and (max-width: 768px){
+
+    img[class=Mahler]{
+   
+        margin-top: -17%;
+        margin-left: 1%;
+        border-radius: 100%;
+       }
+    
+    div[class=Mahler]{
+        display: block;
+        
+       }
+
+    
+    
+    p[class=Mahler]{
+        margin-left: 17%;
+        margin-top: 3%;
+        font-size: 32px;
+    }
+    
+    
+    
+    p[class=Mahlerinfo]{
+        margin-left: 18%;
+        font-size: 90%;
+        margin-top: -2%;
+    }
     
 }
+
+/* iPad */
+
+
+
+
+/* iPhone */
+
+@media screen and (max-width: 600px){
+
+ 
+    img[class=Mahler]{
+   
+        margin-top: -25%;
+        margin-left: 1%;
+        border-radius: 100%;
+       }
+    
+    div[class=Mahler]{
+        display: block;
+       }
+    
+    p[class=Mahler]{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 32px;
+    }
+    
+    
+    p[class=Mahlerinfo]{
+        margin-left: 36%;
+        font-size: 90%;
+        margin-top: -2%;
+    }
+    
+}
+
+/* iPhone */
+
+    
+
+
 
 
 /* Mahler */
