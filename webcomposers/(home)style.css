@@ -1,10 +1,11 @@
 
 *{
     font-family: arial;
+    
   }
   
-  h3{
-    font-size: 125%;  
+  h2{
+    font-size: 240%;  
   }
   
   
@@ -45,12 +46,12 @@
   div[class=composersimages]{
     padding: 10%;
   }
-  
-  
+
+
   /* img's config */
   
   
-/* buttons */
+  /* buttons */
 
   .btn{
     padding: 25px 20px 4px 20px;
@@ -81,6 +82,64 @@
 
 
   /* buttons */
+
+
+/* iPad */
+@media screen and (max-width: 768px){
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  div[class=composersimages]{
+    margin-top: 10px;
+  }
+
+  div[class=module-border-wrap]{
+    height: 250px;
+  }
+
+  div[class=as]{
+    margin-top: 40px;
+  }
+}
+
+/* iPad */
+
+/* iPhone */
+
+@media screen and (max-width: 600px){
+   .btn{
+       font-size: 17px;
+       padding: 5px;
+       margin-left: 6px;
+       margin-top: 7px;
+   }
+
+   h1{
+    font-size: 27px;
+   }
+
+   h2{
+    font-size: 22px;
+   }
+
+   div[class=module-border-wrap]{
+    height: 220px;
+  }
+
+   div[class=composersimages]{
+    margin-top: 20px;
+   }
+
+
+}
+
+/* iPhone */
+  
 
 
   
