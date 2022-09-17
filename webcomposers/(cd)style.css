@@ -1,6 +1,21 @@
+
 *{
     font-family: arial;
  }
+
+
+/* Mahler */
+
+button[class=Mahler]{
+    width: 100%;
+    border-color: #fff;
+    background-color: #fff;
+    border: 0px;
+}
+
+button[class=Mahler]:hover{
+    background-color: rgb(238, 238, 238);
+}
 
 
  .module-border-wrap{
@@ -21,13 +36,10 @@
     margin-top: 2%;
  }
 
-
-/* Mahler */
-
 img[class=Mahler]{
    
     margin-top: -8%;
-    margin-left: 1%;
+    margin-left: -88%;
     border-radius: 100%;
    }
 
@@ -36,14 +48,14 @@ div[class=Mahler]{
    }
 
 p[class=Mahler]{
-    margin-left: 13%;
+    margin-left: -65%;
     margin-top: 2%;
     font-size: 32px;
 }
 
 
 p[class=Mahlerinfo]{
-    margin-left: 13%;
+    margin-left: -65%;
     font-size: 90%;
     margin-top: -2%;
 }
@@ -121,8 +133,5 @@ p[class=Mahlerinfo]{
 /* iPhone */
 
     
-
-
-
 
 /* Mahler */
